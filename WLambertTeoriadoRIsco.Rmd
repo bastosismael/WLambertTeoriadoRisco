@@ -1,0 +1,153 @@
+---
+title: "WLambert"
+output: html_document
+header-includes:
+  - \usepackage{subcaption}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Função W de Lambert
+
+Para entender a função W de Lambert, primeiramente precisamos compreender o conceito de função inversa. 
+
+## Função Inversa
+
+Seja uma função $f: A \rightarrow B$, podemos definir uma função $f^{-1}: B \rightarrow A$ a qual chamaremos de função inversa de $f$. 
+
+
+
+```{r echo=FALSE, out.width = '50%', fig.align="center"}
+knitr::include_graphics(c("images/f_inversa.png"))
+```
+
+Basicamente, $f^{-1}$ desfaz o que $f$ cria.É importante ressaltar que estamos admitindo a existência da função inversa, no entanto, nem sempre isso é possível. Por exemplo, seja $f: A \rightarrow B$, em que $f(x)$ é representada através da imagem abaixo:
+
+```{r echo=FALSE, out.width = '25%', fig.align="center"}
+knitr::include_graphics(c("images/nao_injetiva.png"))
+```
+
+Temos que, $f(x) = f(y) = a$, no entanto,  $f^{-1}(a)$ não pode ser simultaneamente $x$ e $y$, pois não é permitido que existam ambiguidades, trata-se de um absurdo. Analisando $f$, é notório que trata-se de uma função não-injetiva, com isso, é possível chegar a conclusão que se a função não for injetiva, então não é possível obter sua inversa.
+
+Ainda nesse sentido, poderíamos ter a seguinte situação: Seja $f: A \rightarrow B$, em que $f(x)$ é representada através do esquema abaixo:
+
+
+```{r echo=FALSE, out.width = '25%', fig.align="center"}
+knitr::include_graphics(c("images/nao_sobrejetiva.png"))
+```
+
+É possível perceber que $c \in B$, mas não existe $f^{-1}(c)$, portanto, nesse caso também não existiria $f^{-1}$, ou seja, $f$ não possui inversa, pois, pela definição de função, não podem haver exceções em relação ao seu domínio. Podemos extrapolar essa noção e afirmar que, sempre que tivermos uma função que não é sobrejetiva, então ela não possuirá inversa.
+
+Com isso, é possível estabelecer dois criteŕios para que uma função possua inversa:
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+- A função é injetiva
+- A função é sobrejetiva
+
+</div>
+
+
+Logo, se uma função é injetiva e sobrejetiva, ela é bijetiva, o que nos leva a seguinte conclusão:
+
+<style>
+div.red{ background-color:#ffcccc; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "red">
+
+**Uma função só admite inversa caso seja bijetiva.**
+
+</div>
+
+### Exemplo 1:
+
+Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ tal que $f(x) = e^x$, determine $f^{-1}$.
+
+
+
+
+A função f é injetiva, se $\forall \ x_1, x_2 \in \mathbb{R}$ temos que $f(x_1) = f(x_2) \implies x_1 = x_2$
+
+\begin{gather*}
+f(x_1) = e^{x_1}\\
+f(x_2) = e^{x_2}
+\end{gather*}
+
+\begin{align*}
+f(x_1) &= f(x_2)\\
+e^{x_1} &= e^{x^2}\\
+ln(e^{x_1}) &= ln(e^{x_1})\\
+x_1 &= x_2
+\end{align*}
+
+Com isso, demonstramos que f é injetiva. Para demonstrar que é sobrejetiva temos que demonstrar que:
+\begin{equation}
+\forall y \in \mathbb{R}, \exists x \in \mathbb{R}, \text{ tal que } f(x) = y.
+\end{equation}
+
+\begin{gather*}
+y = e^x\\
+x = ln(y)\\
+\end{gather*}
+
+\begin{align*}
+f(x) &= f(ln(y))\\
+&= e^{ln(y)}\\
+&= y
+\end{align*}
+
+Logo, $f$ é bijetiva e, portanto, admite inversa.
+
+Admitindo $f(x) = y$, para obter $f^{-1}$, basta trocar $x$ por $y$
+
+\begin{gather*}
+y = e^x\\
+x = e^y\\
+y = ln(x)
+\end{gather*}
+
+Portanto, podemos afirmar que $f^{-1}: \mathbb{R} \rightarrow \mathbb{R}$ é definida por $f^{-1}(x) =ln(x)$.
+
+### Exemplo 2
+
+Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ tal que $f(x) = x^2$, determine $f^{-1}$.
+
+Uma forma bem simples de verificar se f é injetiva é realizar o teste da reta horizontal, que consiste em traçar uma reta horizontal no gráfico da função análisada.
+
+```{r echo=FALSE, fig.align='center'}
+curve(x^2, from=-10, to=10, , xlab="x", ylab="y")
+abline(h=20, col="red")
+```
+
+Como a reta horizontal toca a função em dois pontos distintos, o que mostra que a função não é injetiva. Da mesma forma, é possível verificar que $f(-2)=f(2) =4$, de forma geral, $f(x) = f(-x) = x^2$. Como $f$ não é injetiva, segue que também não é bijetiva e portanto não possui inversa.
+
+Entretanto, se alterarmos o domínio de $f$, podemos fazer com que ela possua inversa. Vamos considerar agora o seguinte problema: Seja $f: \mathbb{R^+} \rightarrow \mathbb{R^+}$ de forma que $f(x) = x^2$, determine $f^{-1}$.
+
+Realizando novamente o teste da reta horizontal, é possível verificar que a reta toca em apenas um ponto, o ponto y=20 foi escolhido de forma arbitraria, mas é possível notar que qualquer outra reta horizontal $y=h$ com $h \in \mathbb{R^+} iria tocar em apenas um ponto da mesma maneira.
+
+```{r echo=FALSE, fig.align='center'}
+
+plot(x = seq(0,10,0.1), y = seq(0,10,0.1)^2, xlim = c(-10,10), type='l', xlab = "x", ylab = "y")
+abline(h=20, col="red")
+```
+
+Ainda é possível demonstrar que $f$ é injetiva:
+
+Seja $x_1, x_2\ \in \mathbb{R^+}$, então:
+\begin{gather*}
+f(x_1) = x_1^2\\
+f(x_2) = x_2^2
+\end{gather*}
+
+\begin{align*}
+f(x_1) &= f(x_2)\\
+x_1^2 &= x_2^2\\
+\sqrt{x_1^2} &= \sqrt{x_2^2}\\
+x_1 &= x_2
+\end{align*}
