@@ -151,3 +151,51 @@ x_1^2 &= x_2^2\\
 \sqrt{x_1^2} &= \sqrt{x_2^2}\\
 x_1 &= x_2
 \end{align*}
+
+portanto, $f$ é injetiva.
+
+Para verificar que é sobrejetiva basta ver que:
+
+\begin{align*}
+y &= x^2\\
+x &= \sqrt{y}\\
+f(\sqrt{y}) &= \sqrt{y}^2\\
+f(\sqrt{y}) &= y\\
+\end{align*}
+
+Logo, $f$ é bijetiva e portanto possui inversa:
+
+\begin{align*}
+y &= x^2\\
+x &= y^2\\
+y &= \sqrt{x}
+\end{align*}
+
+Portanto, podemos afirmar que $f^{-1}: \mathbb{R^+} \rightarrow \mathbb{R^+}$ é definida por $f^{-1}(x) =\sqrt{x}$.
+
+Um racicínio análogo poderia ser feito para $f: \mathbb{R^-} \rightarrow \mathbb{R^+}.
+
+## Função W de Lambert
+
+Começaremos nosso estudo através da função $f: \mathbb{R} \rightarrow \mathbb{R}$, definida por:
+
+\begin{equation}
+ f(x) = xe^x
+\end{equation}
+
+```{r echo=FALSE, fig.align='center'}
+
+f <- function(x) return(x*exp(x))
+curve(f, from=-8, to=1, ylab="y")
+abline(h=-0.25, col="red")
+```
+
+Pela visualização de seu gráfico é evidente que trata-se de uma função não-injetiva, portanto, não possui inversa, podendo ser visto pelo teste da reta horizontal.
+
+Portanto, $f$ não é bijetiva. No entanto, assim como ocorre para a função $f(x) = x^2$ é possível delimitar seu domínio e obter funções invertiveis, no caso de $f(x) = xe^x$ podemos realizar uma abordagem semelhante.
+
+É possível verificar, através da primeira derivada de $f$, que $x=-1$ é um mínimo global e que $f'(x)>0,\quad x>-1$. Da mesma forma $f'(x)<0,\quad x<-1$.
+
+Logo, é possível notar que $f: [-1, \infty) \rightarrow [-1/e, \infty)$ tal que $f(x) = xe^x$ é injetiva. Assim como $g: (-\infty, -1] \rightarrow (0, -1/e)$ com $g(x)= xe^x$ também é injetiva.
+
+
