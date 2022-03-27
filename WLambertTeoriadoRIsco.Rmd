@@ -196,6 +196,6 @@ Portanto, $f$ não é bijetiva. No entanto, assim como ocorre para a função $f
 
 É possível verificar, através da primeira derivada de $f$, que $x=-1$ é um mínimo global e que $f'(x)>0,\quad x>-1$. Da mesma forma $f'(x)<0,\quad x<-1$.
 
-Logo, é possível notar que $f: [-1, \infty) \rightarrow [-1/e, \infty)$ tal que $f(x) = xe^x$ é injetiva. Assim como $g: (-\infty, -1] \rightarrow (0, -1/e)$ com $g(x)= xe^x$ também é injetiva.
+Logo, é possível notar que $f: [-1, \infty) \rightarrow [-1/e, \infty)$ tal que $f(x) = xe^x$ é injetiva. Assim como $g: (-\infty, -1] \rightarrow (-1/e, 0)$ com $g(x)= xe^x$ também é injetiva.
 
 
