@@ -7,6 +7,7 @@ header-includes:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library("lamW")
 ```
 
 
@@ -198,4 +199,43 @@ Portanto, $f$ não é bijetiva. No entanto, assim como ocorre para a função $f
 
 Logo, é possível notar que $f: [-1, \infty) \rightarrow [-1/e, \infty)$ tal que $f(x) = xe^x$ é injetiva. Assim como $g: (-\infty, -1] \rightarrow (-1/e, 0)$ com $g(x)= xe^x$ também é injetiva.
 
+Também é possível verificar que $f$ e $g$ são sobrejetivas, utilizando-se para isso, o teorema do valor médio.
 
+Por fim, sabemos que $f$ e $g$ são bijetivas e, portanto, possuem inversa. 
+
+A inversa de $f$ é denotada por $W_{0}$ e é chamada de função $W$ de Lambert no ramo $0$. De forma equivalente, a inversa de $g$ é denotada por $W_{-1}$ e é denominada função $W$ de Lambert no ramo $-1$.
+
+O gráfico abaixo apresenta a função $W$ de lambert nos ramos $-1$ e $0$, assim como as funções $f$ e $g$:
+
+```{r echo=FALSE, out.width = '50%', fig.align="center"}
+knitr::include_graphics(c("images/inversas.png"))
+```
+
+# Calcular a função W de Lambert em um ponto
+
+Para explicar como avaliar a função W de lambert em um ponto específico, partiremos do seguinte exemplo:
+
+**Exemplo**: Determine $x$ que satisfaça a seguinte equação:
+\begin{equation}
+2^x = 10x
+\end{equation}
+
+Para resolver esse problema, podemos realizar os seguintes passos:
+\begin{align*}
+ln(2^x) &= ln(10x )\\
+xln(2) &= ln(10x)\\
+e^{xln(2)} &= 10x\\
+xe^{-xln(2)} &= \dfrac{1}{10}\\
+-x\ln{(2)}e^{-xln(2)} &= -\dfrac{\ln{(2)}}{10}
+\end{align*}
+
+Nesse ponto, é possível verificar o surgimento da expressão : $-x\ln{(2)}e^{-xln(2)}$.
+
+Um ponto importante sobre inversas é que:
+
+[Imagem]
+
+Logo, temos a seguinte identidade:
+\begin{equation}
+W(xe^x) = x
+\end{equation}
