@@ -197,7 +197,7 @@ Portanto, $f$ não é bijetiva. No entanto, assim como ocorre para a função $f
 
 É possível verificar, através da primeira derivada de $f$, que $x=-1$ é um mínimo global e que $f'(x)>0,\quad x>-1$. Da mesma forma $f'(x)<0,\quad x<-1$.
 
-Logo, é possível notar que $f: [-1, \infty) \rightarrow [-1/e, \infty)$ tal que $f(x) = xe^x$ é injetiva. Assim como $g: (-\infty, -1] \rightarrow (-1/e, 0)$ com $g(x)= xe^x$ também é injetiva.
+Logo, é possível notar que $f: [-1, \infty) \rightarrow [-1/e, \infty)$ tal que $f(x) = xe^x$ é injetiva. Assim como $g: (-\infty, -1] \rightarrow (-1/e, 0]$ com $g(x)= xe^x$ também é injetiva.
 
 Também é possível verificar que $f$ e $g$ são sobrejetivas, utilizando-se para isso, o teorema do valor médio.
 
@@ -233,9 +233,201 @@ Nesse ponto, é possível verificar o surgimento da expressão : $-x\ln{(2)}e^{-
 
 Um ponto importante sobre inversas é que:
 
-[Imagem]
+```{r echo=FALSE, out.width = '25%', fig.align="center"}
+knitr::include_graphics(c("images/p1.png"))
+```
 
 Logo, temos a seguinte identidade:
+
+<style>
+div.red{ background-color:#ffcccc; border-radius: 5px; padding: 5px;}
+</style>
+<div class = "red">
+
 \begin{equation}
+\tag{P.1}
+\label{eq:"P1"}
 W(xe^x) = x
 \end{equation}
+
+</div>
+
+Através da propriedade enunciada acima, conseguimos realizar mais um passo do exemplo desenvolvido anteriormente. Tinhamos que:
+
+\begin{equation}
+-x\ln{(2)}e^{-xln(2)} = -\dfrac{\ln{(2)}}{10},
+\end{equation}
+aplicando P.1, segue que:
+
+\begin{align}
+W(-x\ln{(2)}e^{-xln(2)}) = W\Bigg(-\dfrac{\ln{(2)}}{10}\Bigg)\\
+-\ln{(2)}x = W\Bigg(-\dfrac{\ln{(2)}}{10}\Bigg)\\
+x = W\Bigg(-\dfrac{\ln{(2)}}{10}\Bigg) \cdot \dfrac{1}{\ln{(2)}}
+\end{align}
+
+A partir de agora, surgem ose seguintes questionamentos:
+
+- Em qual ramo vamos calcular a função $W$ de Lambert?
+
+- Como calcular numericamente $W\Bigg(-\dfrac{\ln{(2)}}{10}\Bigg)$ ? 
+
+Como resposta a primeira pergunta, basta anlisar o valor que está sendo avaliado na função, no caso do exemplo, $-\dfrac{\ln{(2)}}{10}$. Como $-\dfrac{\ln{(2)}}{10} \in [-1/e, 0]$ então é possível calcular a função $W$ de Lambert em ambos os ramos. É importante que isso foi possível nesse exemplo, mas nem sempre será possível avaliar nos dois ramos. 
+
+Como resposta para a segunda pergunta, com efeito, é possível afirmar que não se pode obter, analiticamente, o valor exato da função. Portanto, iremos recorrer a aproximação pelo metódo de **Newton-Raphson** para obtenção de raízes de funções reais. 
+
+# Método de Newton-Raphson
+
+O método de Newton-Raphson é um método iterativo para encontrar raízes de funções reais. O método consiste basicamente em selecionar um ponto inicial, sem seguida calcular a intersecção entre a reta tangente a esse ponto e o eixo das abcissas, em seguida é obtida a imagem da função nesse ponto e novamente calculada a reta tangente e sua intersecção com o eixo das abcissas. Esse processo é repetido até que a diferença o ponto de intersecção de duas sucessivas retas tangentes seja inferior a um dado valor $\epsilon$.
+
+Começando com um exemplo simples:
+
+Utilizando o método de Newton-Raphson, encontre uma aproximação para o valor de $\sqrt{2}$.
+
+Podemos nos valer da função $f: \mathbb{R} \rightarrow \mathbb{R}$ definida por $f(x) = x^2 -2$, já que possui como raízes reais os valores $\sqrt{2}$ e $-\sqrt{2}$.
+
+Como o objetivo do método é encontrar raízes reais de funções, nesse ponto, podemos aplicá-lo na função $f(x) = x^2 -2$ para encontrar uma aproximação para o valor de $\sqrt{2}$
+
+O primeiro passo é definir um ponto inicial, como já sabemos que $\sqrt{2}$ é uma raiz da função, começaremos por um ponto a sua direita, no caso definaremos arbitrariamente o valor $x=4$. 
+
+Como mencionado anteriormente, o primeiro passo é encontrar a reta tangente ao ponto $(4,14)$. Essa tarefa se torna simples, uma vez que temos um ponto pertencente a reta e a inclicação da reta pode ser obtida através da derivada de primeira ordem de $f$.
+
+$$f'(x) = 2x$$
+
+Logo, a reta tangente ao ponto $(4,14)$ é obtida da seguinte forma:
+
+\begin{align}
+g(x) - 14 &= 8(x - 4) \\
+g(x) &= 8x - 18
+\end{align}
+
+O próximo passo é encontrar a intersecção entre a reta tangente e o eixo $x$, ou seja, $g(x)=0$.
+
+\begin{align}
+8x-18 &=0\\
+x &= \dfrac{18}{8}\\
+x = 2,25
+\end{align}
+
+Novamente, iremos determinar a reta tangente ao ponto $(2,25, 3,0625)$
+\begin{align}
+g(x) - 3,0625 &= 4,5(x - 2,25) \\
+g(x) &= 4,5x - 7,0625
+\end{align}
+
+Em seguida, basta calcular a intersecção entre a reta tangente e o eixo $x$.
+
+\begin{align}
+4,5x - 7,0625 &=0\\
+x &= \dfrac{7,0625}{4,5}\\
+x = 1,57
+\end{align}
+
+Resumidamente, o método consiste em:
+
+1 - Determinar um ponto inicial.
+2 - Determinar a reta tangente a esse ponto.
+3 - Encontrar o ponto de intersecção entre a reta tangente o eixo $x$.
+4 - Atualizar o ponto inicial com o ponto encontrado no passo anterior.
+
+A partir disso, se torna simples estabelecer uma relação recursiva que resuma o processo descrito acima. 
+
+Denotando por $g(x)$ a equação da reta tangente, sabemos que:
+
+\begin{gather*}
+g(x) - f(x_0) = f'(x_0)(x - x_0)
+\end{gather*}
+
+Sabemos que um ponto pertencente a essa reta é $(x_1, 0)$, que é exatamente o ponto de intersecção da reta tangente com o eixo $x$, portanto,
+
+\begin{gather*}
+0 - f(x_0) = f'(x_0)(x_1 - x_0)
+x_1 = x0 - \dfrac{f(x_0)}{f'(x_0)}
+\end{gather*}
+
+Podemos generalizar a expressão acima para qualquer valor $n \in \mathbb{N^*}$ arbitrário
+
+\begin{equation}
+x_n = x_{n-1} - \dfrac{f(x_{n-1})}{f'(x_{n-1})}
+\end{equation}
+
+É possível transformar a equação acima em código, no presente texto será utilizada a linguagem **R**
+
+```{r}
+library(numDeriv)
+
+nr <- function(x0, f, i){
+  if(i == 0) return(x0)
+  return(nr(x0, f, i-1) -f(nr(x0, f, i-1))/grad(f, nr(x0, f, i-1)))
+}
+```
+em que $x0$ é o chute inicial, $f$ a função na qual desejamos encontrar a raiz e $i$ o número de iterações.
+
+Utilizando o código criado, é possível verificar que
+```{r}
+f <- function(x) return(x^2-2)
+```
+
+```{r}
+print(nr(4, f, 1))
+```
+É possível verificar que o resultado é igual ao obtido de forma manual, sendo possível verificar também para duas iterações
+
+```{r}
+print(nr(4,f,2))
+```
+
+Novamente, obtivemos o mesmo resultado encontrado de forma manual. 
+
+```{r}
+for(i in seq(1,10)){
+  cat("Número de Iterações",i," ", nr(4,f,i), "\n")
+}
+```
+É possível notar que, a partir de 4 iterações o valor permanece inalterado, ou seja, levando em conta o número de casas decimais considerado, já foi possível encontrar uma boa aproximação para o valor de $\sqrt{2}$.
+
+O método de Newton-Raphson será de grande utilidade para a utilização da função $W$ de Lambert, assim como será visto a seguir.
+
+# Utilização do método de Newton-Raphson para aproximação da função W de Lambert
+
+Retomando a segunda pergunta feita na seção anterior
+
+- Como calcular numericamente $W\Bigg(-\dfrac{\ln{(2)}}{10}\Bigg)$ ? 
+
+Já sabemos que teremos valores diferentes para cada um dos ramos da função $W$ de Lambert, vamos começar pelo ramo $-1$. 
+
+Sabemos que: $W_{-1}\Bigg(-\dfrac{\ln{(2)}}{10}\Bigg)$
+
+
+É possível verificar que
+
+\begin{gather*}
+y =  W_{-1}\Bigg(-\dfrac{\ln{(2)}}{10}\Bigg)\\
+ye^y = -\dfrac{\ln{(2)}}{10}\\
+ye^y + \dfrac{\ln{(2)}}{10} = 0
+\end{gather*}
+
+Ou seja, o problema se definirmos $f(y) = ye^y + \dfrac{\ln{(2)}}{10}$, o problema se resume a encontrar a raiz real de f(y). Portanto, podemos utilizar o método de Newton-Raphson para isso. 
+
+Uma dúvida que surge é qual chute inicial devemos utilizar. Como estamos calculando uma aproximação no ramo $-1$, sabemos que o chute-inicial deve se encontrar no intervalo $(-1/e, 0]$, um bom chute ´e começar com o valor 0$.
+
+Para a primeira iteração teremos que:
+[Fazer na mão]
+
+```{r}
+f <- function(y) return(y*exp(y) + log(2)/10)
+```
+
+```{r}
+print(nr(-0.5, f, 5))
+```
+
+Na linguagem **R** já existem funções para o cálculo da função $W$ de Lambert por meio da utilização do pacote **lamW**
+
+```{r}
+library(lamW)
+```
+
+```{r}
+lambertW0(-log(2)/10)
+```
+
