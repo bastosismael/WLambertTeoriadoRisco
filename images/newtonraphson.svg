@@ -5,7 +5,7 @@
    height="2000"
    id="svg35525"
    sodipodi:docname="newtonraphson.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,15 +21,16 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.3765"
-     inkscape:cx="812.74901"
-     inkscape:cy="958.83135"
+     inkscape:zoom="0.753"
+     inkscape:cx="997.34396"
+     inkscape:cy="1673.9708"
      inkscape:window-width="1920"
-     inkscape:window-height="1053"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer1"
+     inkscape:snap-page="false">
     <sodipodi:guide
        position="1250,372"
        orientation="0,-1"
@@ -40,7 +41,14 @@
        id="guide47243" />
   </sodipodi:namedview>
   <defs
-     id="defs35228" />
+     id="defs35228">
+    <rect
+       x="569.72112"
+       y="1783.5325"
+       width="604.24967"
+       height="249.66799"
+       id="rect3061" />
+  </defs>
   <g
      inkscape:groupmode="layer"
      id="layer1"
@@ -48,7 +56,10 @@
      style="display:inline">
     <g
        transform="matrix(1.999995,0,0,2.0000068,0.00248848,-0.00430216)"
-       id="g35523">
+       id="g35523"
+       inkscape:export-filename="C:\Users\ismae\OneDrive - Diretório Padrão\Área de Trabalho\2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="background-a9d23b42">
         <rect
@@ -131,7 +142,8 @@
                stroke-miterlimit="10"
                stroke-width="2"
                stroke-dasharray="none"
-               id="path35249" />
+               id="path35249"
+               style="stroke-width:3;stroke-miterlimit:10;stroke-dasharray:none" />
             <g
                class="dcg-svg-axis-line"
                id="g35253">
@@ -187,18 +199,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35260">0</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35262">0</text>
             </g>
             <g
                id="g35268">
@@ -233,18 +233,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35270">-8</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="10.557861"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35272">-8</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -264,18 +252,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35276">-7</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="59.669434"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35278">-7</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -295,18 +271,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35282">-6</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="122.16943"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35284">-6</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -326,18 +290,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35288">-5</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="184.66943"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35290">-5</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -357,18 +309,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35294">-4</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="247.16943"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35296">-4</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -388,18 +328,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35300">-3</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="309.66943"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35302">-3</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -419,18 +347,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35306">-2</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="372.16943"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35308">-2</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -450,18 +366,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35312">-1</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="434.66943"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35314">-1</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -481,18 +385,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35318">1</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="562.5"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35320">1</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -531,18 +423,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35330">3</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="687.5"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35332">3</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -562,18 +442,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35336">4</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="750"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35338">4</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -593,18 +461,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35342">5</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="812.5"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35344">5</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -624,18 +480,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35348">6</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="875"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35350">6</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -655,18 +499,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35354">7</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="937.5"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35356">7</text>
             </g>
             <g
                class="dcg-svg-axis-value dcg-svg-offcenter-axis-value"
@@ -686,18 +518,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35360">8</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="992.27271"
-                 y="836.30585"
-                 text-anchor="middle"
-                 id="text35362">8</text>
             </g>
             <g
                class="dcg-svg-axis-value dcg-svg-offcenter-axis-value"
@@ -717,18 +537,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35366">-4</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="487.44214"
-                 y="993.12402"
-                 text-anchor="middle"
-                 id="text35368">-4</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -748,18 +556,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35372">-3</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="487.44214"
-                 y="959.16943"
-                 text-anchor="middle"
-                 id="text35374">-3</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -779,18 +575,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35378">-2</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="487.44214"
-                 y="913.7149"
-                 text-anchor="middle"
-                 id="text35380">-2</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -810,18 +594,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35384">-1</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="487.44214"
-                 y="868.26038"
-                 text-anchor="middle"
-                 id="text35386">-1</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -841,18 +613,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35390">1</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="777.35126"
-                 text-anchor="middle"
-                 id="text35392">1</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -872,18 +632,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35396">2</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="731.89673"
-                 text-anchor="middle"
-                 id="text35398">2</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -903,18 +651,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35402">3</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="686.4422"
-                 text-anchor="middle"
-                 id="text35404">3</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -934,18 +670,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35408">4</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="640.98761"
-                 text-anchor="middle"
-                 id="text35410">4</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -965,18 +689,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35414">5</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="595.53308"
-                 text-anchor="middle"
-                 id="text35416">5</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -996,18 +708,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35420">6</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="550.07855"
-                 text-anchor="middle"
-                 id="text35422">6</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1027,18 +727,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35426">7</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="504.62399"
-                 text-anchor="middle"
-                 id="text35428">7</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1058,18 +746,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35432">8</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="459.16946"
-                 text-anchor="middle"
-                 id="text35434">8</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1089,18 +765,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35438">9</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="490.27271"
-                 y="413.7149"
-                 text-anchor="middle"
-                 id="text35440">9</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1120,18 +784,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35444">10</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="485.54541"
-                 y="368.26038"
-                 text-anchor="middle"
-                 id="text35446">10</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1151,18 +803,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35450">11</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="486.17627"
-                 y="322.80582"
-                 text-anchor="middle"
-                 id="text35452">11</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1182,18 +822,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35456">12</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="485.54541"
-                 y="277.35129"
-                 text-anchor="middle"
-                 id="text35458">12</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1213,18 +841,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35462">13</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="485.54541"
-                 y="231.89673"
-                 text-anchor="middle"
-                 id="text35464">13</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1244,18 +860,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35468">14</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="485.54541"
-                 y="186.44218"
-                 text-anchor="middle"
-                 id="text35470">14</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1275,18 +879,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35474">15</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="485.54541"
-                 y="140.98764"
-                 text-anchor="middle"
-                 id="text35476">15</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1306,18 +898,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35480">16</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="485.54541"
-                 y="95.533089"
-                 text-anchor="middle"
-                 id="text35482">16</text>
             </g>
             <g
                class="dcg-svg-axis-value"
@@ -1337,18 +917,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35486">17</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="485.54541"
-                 y="50.078545"
-                 text-anchor="middle"
-                 id="text35488">17</text>
             </g>
             <g
                class="dcg-svg-axis-value dcg-svg-offcenter-axis-value"
@@ -1368,18 +936,6 @@
                  stroke-width="3"
                  stroke-dasharray="none"
                  id="text35492">18</text>
-              <text
-                 fill="#000000"
-                 stroke="none"
-                 font-family="Arial"
-                 font-size="17px"
-                 font-style="normal"
-                 font-weight="normal"
-                 text-decoration="normal"
-                 x="485.54541"
-                 y="16.124001"
-                 text-anchor="middle"
-                 id="text35494">18</text>
             </g>
           </g>
         </g>
@@ -1411,7 +967,8 @@
                stroke-width="3.5"
                stroke-opacity="0.9"
                stroke-dasharray="none"
-               id="path35506" />
+               id="path35506"
+               style="stroke-width:5;stroke-miterlimit:10;stroke-dasharray:none" />
           </g>
         </g>
         <g
@@ -1432,12 +989,516 @@
       <g
          id="labels-a9d23b42" />
     </g>
+    <text
+       xml:space="preserve"
+       id="text3059"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3061);fill:#000000;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="numbers"
+     style="display:inline">
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="1672.6082"
+       text-anchor="middle"
+       id="text35262"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">0</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="21.118221"
+       y="1680.6082"
+       text-anchor="middle"
+       id="text35272"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-8</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="119.34141"
+       y="1680.6082"
+       text-anchor="middle"
+       id="text35278"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-7</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="244.34146"
+       y="1680.6082"
+       text-anchor="middle"
+       id="text35284"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-6</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="369.34152"
+       y="1680.6082"
+       text-anchor="middle"
+       id="text35290"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-5</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="494.34158"
+       y="1680.6082"
+       text-anchor="middle"
+       id="text35296"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-4</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="619.34161"
+       y="1680.6082"
+       text-anchor="middle"
+       id="text35302"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-3</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="744.34167"
+       y="1680.6082"
+       text-anchor="middle"
+       id="text35308"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-2</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="869.34174"
+       y="1680.6082"
+       text-anchor="middle"
+       id="text35314"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-1</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="1554.6989"
+       text-anchor="middle"
+       id="text35392"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">1</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="1463.7898"
+       text-anchor="middle"
+       id="text35398"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">2</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="1372.8807"
+       text-anchor="middle"
+       id="text35404"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">3</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="1281.9714"
+       text-anchor="middle"
+       id="text35410"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">4</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="1191.0624"
+       text-anchor="middle"
+       id="text35416"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">5</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="1100.1533"
+       text-anchor="middle"
+       id="text35422"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">6</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="1009.2441"
+       text-anchor="middle"
+       id="text35428"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">7</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="918.33502"
+       text-anchor="middle"
+       id="text35434"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">8</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="978.54834"
+       y="827.4259"
+       text-anchor="middle"
+       id="text35440"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">9</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="969.09375"
+       y="736.51678"
+       text-anchor="middle"
+       id="text35446"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">10</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="970.35547"
+       y="645.6076"
+       text-anchor="middle"
+       id="text35452"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">11</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="969.09375"
+       y="554.69855"
+       text-anchor="middle"
+       id="text35458"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">12</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="969.09375"
+       y="463.78937"
+       text-anchor="middle"
+       id="text35464"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">13</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="969.09375"
+       y="372.88025"
+       text-anchor="middle"
+       id="text35470"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">14</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="969.09375"
+       y="281.9711"
+       text-anchor="middle"
+       id="text35476"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">15</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="969.09375"
+       y="191.06197"
+       text-anchor="middle"
+       id="text35482"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">16</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="969.09375"
+       y="100.15283"
+       text-anchor="middle"
+       id="text35488"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">17</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="969.09375"
+       y="32.243713"
+       text-anchor="middle"
+       id="text35494"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">18</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="1125.0031"
+       y="1676.6082"
+       text-anchor="middle"
+       id="text35320"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">1</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="1375.0031"
+       y="1676.6082"
+       text-anchor="middle"
+       id="text35332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">3</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="1500.0032"
+       y="1676.6082"
+       text-anchor="middle"
+       id="text35338"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">4</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="1625.0032"
+       y="1676.6082"
+       text-anchor="middle"
+       id="text35344"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">5</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="1750.0033"
+       y="1676.6082"
+       text-anchor="middle"
+       id="text35350"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">6</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="1875.0033"
+       y="1676.6082"
+       text-anchor="middle"
+       id="text35356"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">7</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="1984.5488"
+       y="1676.6082"
+       text-anchor="middle"
+       id="text35362"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">8</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="972.88721"
+       y="1986.2446"
+       text-anchor="middle"
+       id="text35368"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-4</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="972.88721"
+       y="1918.3354"
+       text-anchor="middle"
+       id="text35374"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-3</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="972.88721"
+       y="1827.4263"
+       text-anchor="middle"
+       id="text35380"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-2</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="972.88721"
+       y="1736.5172"
+       text-anchor="middle"
+       id="text35386"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">-1</text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="tan_3"
-     style="display:inline">
+     style="display:none">
     <path
        fill="none"
        stroke="#2d70b3"
@@ -1474,7 +1535,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="tan_1"
-     style="display:inline">
+     style="display:none">
     <path
        fill="none"
        stroke="#388c46"
@@ -1493,16 +1554,6 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="p_2"
-     style="display:none">
-    <path
-       style="display:inline;fill:none;stroke:#f417ae;stroke-width:5.06401;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:30.3841, 5.06401;stroke-dashoffset:0;stroke-opacity:0.873788"
-       d="m 992.01614,1357.1835 h 288.37806 v 270.8328"
-       id="path35652-0" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="p_3"
      style="display:none">
@@ -1514,9 +1565,10 @@
   <g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="p_4">
+     inkscape:label="p_4"
+     style="display:none">
     <path
-       style="display:inline;fill:none;stroke:#f417ae;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:30,5;stroke-dashoffset:0;stroke-opacity:0.873788"
+       style="display:inline;fill:none;stroke:#f417ae;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:30, 5;stroke-dashoffset:0;stroke-opacity:0.873788"
        d="m 1001.7247,1619.1504 h 181.1842 v 24.606"
        id="path35652-0-3-5" />
   </g>
@@ -1524,20 +1576,34 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="tan_2"
-     style="display:none">
+     style="display:inline">
     <g
        id="g1580"
        style="stroke:#38d146;stroke-width:4.5;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.9"
        transform="matrix(0.99999102,0,0,1.0000009,2.012521,-5.8490875e-4)">
       <path
-         style="fill:none;stroke:#38d146;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.9"
-         d="m 1280.4101,1364 -171.4406,639.8251"
-         id="path1268" />
-      <path
-         style="fill:none;stroke:#38d146;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.9"
-         d="M 1280.4101,1364 1678.8106,-122.85078"
-         id="path1496" />
+         style="fill:none;stroke:#38d146;stroke-width:8.00003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.9"
+         d="M 1652.2784,28.789973 1108.9695,2005.8251"
+         id="path1268"
+         sodipodi:nodetypes="cc" />
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="p_2"
+     style="display:inline">
+    <path
+       style="display:inline;fill:none;stroke:#f417ae;stroke-width:5.06401;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:30.3841, 5.06401;stroke-dashoffset:0;stroke-opacity:0.873788"
+       d="m 992.01614,1357.1835 h 288.37806 v 270.8328"
+       id="path35652-0" />
+    <ellipse
+       style="display:inline;fill:#f417ae;fill-opacity:0.87451;stroke:none;stroke-width:4;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.873788"
+       id="path37019-4"
+       cx="1278.99"
+       cy="1358.5747"
+       rx="8.1549263"
+       ry="8.999753" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1552,24 +1618,23 @@
        font-style="normal"
        font-weight="normal"
        text-decoration="normal"
-       x="640.89606"
-       y="833.43536"
+       x="1281.7921"
+       y="1670.8707"
        text-anchor="middle"
        id="text35326-5"
-       style="font-style:normal;font-weight:normal;font-size:34px;font-family:Arial;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="scale(2)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-style:normal;font-weight:normal;font-size:68px;font-family:Arial;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.3334px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
          id="tspan51709">2,25</tspan></text>
     <path
        style="display:inline;fill:none;fill-opacity:0.694201;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 1280.4101,1644 v -16"
+       d="m 1280.4101,1648 v -16"
        id="path47358" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="g1610"
      inkscape:label="1.57"
-     style="display:none">
+     style="display:inline">
     <text
        fill="#000000"
        stroke="none"
@@ -1579,7 +1644,7 @@
        font-weight="normal"
        text-decoration="normal"
        x="1203.7921"
-       y="1668.8707"
+       y="1672.8707"
        text-anchor="middle"
        id="text1606"
        style="font-style:normal;font-weight:normal;font-size:68px;font-family:Arial;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"><tspan
@@ -1587,13 +1652,14 @@
          id="tspan1604">1,57</tspan></text>
     <path
        style="display:inline;fill:none;fill-opacity:0.694201;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 1202.4101,1644 v -16"
+       d="m 1202.4101,1648 v -16"
        id="path1608" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer9"
-     inkscape:label="1.42">
+     inkscape:label="1.42"
+     style="display:none">
     <text
        fill="#000000"
        stroke="none"
@@ -1606,7 +1672,7 @@
        y="1668.8707"
        text-anchor="middle"
        id="text1606-8"
-       style="display:inline;font-style:normal;font-weight:normal;font-size:68px;font-family:Arial;text-anchor:middle;fill:#000000;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+       style="font-style:normal;font-weight:normal;font-size:68px;font-family:Arial;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.3334px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
          id="tspan1604-5">1,42</tspan></text>
     <path
