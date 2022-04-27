@@ -47,7 +47,7 @@ knitr::include_graphics(c("images/nao_sobrejetiva.png"))
 
 É possível perceber que $c \in B$, mas não existe $f^{-1}(c)$, portanto, nesse caso também não existe $f^{-1}$, ou seja, $f$ não possui inversa, pois, pela definição de função, não podem haver exceções em relação ao seu domínio. Podemos extrapolar essa noção e afirmar que, sempre que tivermos uma função que não é sobrejetiva, então ela não possuirá inversa.
 
-Com isso, é possível estabelecer dois criteŕios para que uma função possua inversa:
+Com isso, é possível estabelecer dois critérios para que uma função possua inversa:
 
 - A função é injetiva
 - A função é sobrejetiva
@@ -61,9 +61,7 @@ Se uma função é injetiva e sobrejetiva, então ela é bijetiva, o que nos lev
 
 
 
-**Exemplo 1.1:**
-
-Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ tal que $f(x) = e^x$, determine $f^{-1}$.
+<font size="3"><b> Exemplo $1.1$:</b></font> Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ tal que $f(x) = e^x$, determine $f^{-1}$.
 
 
 
@@ -110,9 +108,7 @@ y = ln(x)
 
 Portanto, podemos afirmar que $f^{-1}: \mathbb{R} \rightarrow \mathbb{R}$ é definida por $f^{-1}(x) =ln(x)$.
 
-**Exemplo 1.2**
-
-Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ tal que $f(x) = x^2$, determine $f^{-1}$.
+<font size="3"><b> Exemplo $1.2$:</b></font>  Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ tal que $f(x) = x^2$, determine $f^{-1}$.
 
 Uma forma bem simples de verificar se $f$ é injetiva é realizar o teste da reta horizontal, que consiste em traçar uma reta horizontal no gráfico da função análisada.
 
@@ -199,9 +195,9 @@ knitr::include_graphics(c("images/inversas.png"))
 
 # Calcular a função W de Lambert em um ponto
 
-Para explicar como avaliar a função W de lambert em um ponto específico, partiremos do seguinte exemplo:
+Para explicar como avaliar a função W de lambert em um ponto específico, partiremos do seguinte exemplo.
 
-**Exemplo 3.1**: Determine $x$ que satisfaça a seguinte equação:
+<font size="3"><b> Exemplo $3.1$:</b></font>  Determine $x$ que satisfaça a seguinte equação:
 \begin{equation}
 2^x = 10x
 \end{equation}
@@ -225,10 +221,6 @@ knitr::include_graphics(c("images/p1.png"))
 
 Logo, temos a seguinte identidade:
 
-<style>
-div.red{ background-color:#ffcccc; border-radius: 5px; padding: 5px;}
-</style>
-<div class = "red">
 
 \begin{equation}
 \tag{P.1}
@@ -236,9 +228,8 @@ div.red{ background-color:#ffcccc; border-radius: 5px; padding: 5px;}
 W(xe^x) = x
 \end{equation}
 
-</div>
 
-Através da propriedade enunciada acima, conseguimos realizar mais um passo do exemplo desenvolvido anteriormente. Tinhamos que:
+Através da propriedade enunciada acima, conseguimos realizar mais um passo do **Exemplo $3.1$**. Tinhamos que:
 
 \begin{equation}
 -x\ln{(2)}e^{-xln(2)} = -\dfrac{\ln{(2)}}{10},
@@ -257,7 +248,7 @@ A partir de agora, surgem ose seguintes questionamentos:
 
 - Como calcular numericamente $W\Bigg(-\dfrac{\ln{(2)}}{10}\Bigg)$ ? 
 
-Como resposta a primeira pergunta, basta anlisar o valor que está sendo avaliado na função, no caso do exemplo, $-\dfrac{\ln{(2)}}{10}$. Como $-\dfrac{\ln{(2)}}{10} \in [-1/e, 0]$ então é possível calcular a função $W$ de Lambert em ambos os ramos. É importante notar que isso foi possível nesse exemplo, mas nem sempre será possível avaliar nos dois ramos. Com efeito, é possível verificar que caso $x>0$, só é possível calcular a função $W$ de Lambert no ramo $0$.
+Como resposta a primeira pergunta, basta anlisar o valor que está sendo avaliado na função, no caso do **Exemplo $3.1$**, $-\dfrac{\ln{(2)}}{10}$. Como $-\dfrac{\ln{(2)}}{10} \in [-1/e, 0]$ então é possível calcular a função $W$ de Lambert em ambos os ramos. É importante notar que isso foi possível nesse exemplo, mas nem sempre será possível avaliar nos dois ramos. Com efeito, é possível verificar que caso $x>0$, só é possível calcular a função $W$ de Lambert no ramo $0$.
 
 Como resposta para a segunda pergunta, é possível afirmar que não se pode obter, analiticamente, o valor exato da função. Portanto, iremos recorrer a aproximação pelo metódo de **Newton-Raphson** para obtenção de raízes de funções reais. 
 
@@ -267,7 +258,7 @@ O método de Newton-Raphson é um método iterativo para encontrar raízes de fu
 
 Começando com um exemplo simples:
 
-**Exemplo 4.1** Utilizando o método de Newton-Raphson, encontre uma aproximação para o valor de $\sqrt{2}$.
+<font size="3"><b> Exemplo $4.1$:</b></font> Utilizando o método de Newton-Raphson, encontre uma aproximação para o valor de $\sqrt{2}$.
 
 Podemos nos valer da função $f: \mathbb{R} \rightarrow \mathbb{R}$ definida por $f(x) = x^2 -2$, já que possui como raízes reais os valores $\sqrt{2}$ e $-\sqrt{2}$.
 
@@ -298,7 +289,7 @@ Novamente, iremos determinar a reta tangente ao ponto $(2,25, 3,0625)$
 \begin{align}
 g(x) - 3,0625 &= 4,5(x - 2,25) \\
 g(x) &= 4,5x - 7,0625
-\end{align}S
+\end{align}
 
 Em seguida, basta calcular a intersecção entre a reta tangente e o eixo $x$.
 
@@ -308,8 +299,8 @@ x &= \dfrac{7,0625}{4,5}\\
 x &= 1,57
 \end{align}
 
-```{r echo=FALSE, out.width = '75%', fig.align="center"}
-knitr::include_graphics(c("images/teste.gif"))
+```{r echo=FALSE, out.width = '35%', fig.align="center"}
+knitr::include_graphics(c("images/teste2.gif"))
 ```
 
 Resumidamente, o método consiste em:
@@ -366,7 +357,7 @@ print(nr(4, f, 1))
 print(nr(4,f,2))
 ```
 
-De forma amnual, acaba sendo cansativo realizar muitas iterações, mas com o auxílio do computador é possível analisar o comportamento dos resultados obtidos de acordo com o numero de iterações. No exemplo abaixo é apresentado o resultado com o número de iterações variando entre 1 e 10.
+De forma amnual, acaba sendo cansativo realizar muitas iterações, mas com o auxílio do computador é possível analisar o comportamento dos resultados obtidos de acordo com o numero de iterações. No código abaixo é apresentado o resultado com o número de iterações variando entre 1 e 10.
 
 ```{r}
 for(i in seq(1,10)){
@@ -379,7 +370,7 @@ O método de Newton-Raphson será de grande utilidade para o uso da função $W$
 
 # Utilização do método de Newton-Raphson para aproximação da função W de Lambert
 
-Retomando a segunda pergunta feita no **Exemplo 3.1**.
+Retomando a segunda pergunta feita no **Exemplo $3.1$**.
 
 - Como calcular numericamente $W\Bigg(-\dfrac{\ln{(2)}}{10}\Bigg)$ ? 
 
@@ -401,13 +392,13 @@ Uma dúvida que surge é qual chute inicial devemos utilizar. Como estamos calcu
 \begin{align*}
 x_1 &= x_0 - \dfrac{f(x_0)}{f'(x_0)}\\
 &= -2 - \dfrac{-2e^{-2} + \frac{ln(2)}{10}}{e^{-2} -2e^{-2}}\\
-&= -3.4878\\
+&= -3,4878\\
 x_2 &= x_1 - \dfrac{f(x_1)}{f'(x_1)}\\
-&= -3.4878 - \dfrac{-3.4878e^{-3.4878} + \frac{ln(2)}{10}}{e^{-3.4878} -3.4878e^{-3.4878}}\\
-&= -3.9783\\
+&= -3,4878 - \dfrac{-3,4878e^{-3,4878} + \frac{ln(2)}{10}}{e^{-3,4878} -3,4878e^{-3,4878}}\\
+&= -3,9783\\
 x_3 &= x_2 - \dfrac{f(x_2)}{f'(x_2)}\\
-&= -3.9783- \dfrac{-3.9783e^{-3.9783} + \frac{ln(2)}{10}}{e^{-3.9783} -3.9783e^{-3.9783}}\\
-&= -4.0707
+&= -3,9783- \dfrac{-3,9783e^{-3,9783} + \frac{ln(2)}{10}}{e^{-3,9783} -3,9783e^{-3,9783}}\\
+&= -4,0707
 \end{align*}
 
 Utilizando a função criada anterioremente, podemos obter os mesmos valores, além de ser possível realizar maior número de iterações.
@@ -419,7 +410,7 @@ f <- function(y) return(y*exp(y) + log(2)/10)
 for(i in seq(1,10)) cat("Número de Iterações:",i," ", nr(-2, f, i),"\n")
 ```
 
-Nesse ponro, cabe ressaltar que, na linguagem **R** já existem funções para o cálculo da função $W$ de Lambert por meio da utilização do pacote **lamW**
+Nesse ponto, cabe ressaltar que, na linguagem **R** já existem funções para o cálculo da função $W$ de Lambert por meio da utilização do pacote **lamW**
 
 
 ```{r}
@@ -439,13 +430,13 @@ Analiticamente, temos que:
 \begin{align}
 x_1 &= x_0 - \dfrac{f(x_0)}{f'(x_0)}\\
 &= 1 - \dfrac{e + \frac{ln(2)}{10}}{2e}\\
-&= 0.4872\\
+&= 0,4872\\
 x_2 &= x_1 - \dfrac{f(x_1)}{f'(x_1)}\\
-&= 0.4872 - \dfrac{0.4872e^{0.4872} + \frac{ln(2)}{10}}{e^{0.4872} +0.4872e^{0.4872}}\\
-&= 0.1310\\
+&= 0,4872 - \dfrac{0,4872e^{0,4872} + \frac{ln(2)}{10}}{e^{0,4872} +0,4872e^{0,4872}}\\
+&= 0,1310\\
 x_3 &= x_2 - \dfrac{f(x_2)}{f'(x_2)}\\
-&= 0.1310 - \dfrac{0.1310e^{0.1310} + \frac{ln(2)}{10}}{e^{0.1310} 0.1310e^{0.1310}}\\
-&= -0.0386
+&= 0,1310 - \dfrac{0,1310e^{0,1310} + \frac{ln(2)}{10}}{e^{0,1310} 0,1310e^{0,1310}}\\
+&= -0,0386
 \end{align}
 
 
@@ -524,9 +515,9 @@ Retornando para o problema inicial, segue que:
     -10^4e^{-\frac{LT}{5\times10^3}}(LT +5\times10^3)  = - 42934920\\
  -10^4e^{-\frac{LT}{5\times10^3}}(LT +5\times10^3)  = - 42934920\\
     e^{-\frac{LT}{5\times10^3}}(LT +5\times10^3)  = 42934920 \times 10^{-4}\\
-    e^{-\frac{LT}{5\times10^3} -1}\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg) = 8586.984\times 10^{-4} \times e^{-1}\\
-    -\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg)e^{-\bigg(\frac{LT}{5\times10^3} + 1\bigg)}= -8586.984\times 10^{-4} \times e^{-1}\\
-    W\Bigg[-\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg)e^{-\bigg(\frac{LT}{5\times10^3} + 1\bigg)}\Bigg] = W\bigg(-8586.984\times 10^{-4} \times e^{-1}\bigg)\\
+    e^{-\frac{LT}{5\times10^3} -1}\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg) = 8586,984\times 10^{-4} \times e^{-1}\\
+    -\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg)e^{-\bigg(\frac{LT}{5\times10^3} + 1\bigg)}= -8586,984\times 10^{-4} \times e^{-1}\\
+    W\Bigg[-\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg)e^{-\bigg(\frac{LT}{5\times10^3} + 1\bigg)}\Bigg] = W\bigg(-8586,984\times 10^{-4} \times e^{-1}\bigg)\\
 \end{gather*}
 
 A partir de agora, basta utilizar aplicar a seguinte propriedade do lado esquerdo da equação:
@@ -538,18 +529,18 @@ W(xe^x) = x
 Já do lado direito, se faz necessário identificar em qual ramo da função $W$ de Lambert estaremos trabalhando. Sabemos que:
 
 \begin{gather}
--8586.984\times 10^{-4} \times e^{-1} = -0.3159 \in [-1/e, \infty), 
+-8586,984\times 10^{-4} \times e^{-1} = -0,3159 \in [-1/e, \infty), 
 \end{gather}
 
 portanto, é possível calcular a função $W$ de Lambert em ambos os ramos $0 \ e\  -1$.
 
 **Ramo $0$**
 \begin{gather}
-W_0\Bigg[-\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg)e^{-\bigg(\frac{LT}{5\times10^3} + 1\bigg)}\Bigg] = W_0\bigg(-8586.984\times 10^{-4} \times e^{-1}\bigg)\\
- -\dfrac{LT}{5 \times 10^3}  =  1 + W_0(0.3158975)\\
+W_0\Bigg[-\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg)e^{-\bigg(\frac{LT}{5\times10^3} + 1\bigg)}\Bigg] = W_0\bigg(-8586,984\times 10^{-4} \times e^{-1}\bigg)\\
+ -\dfrac{LT}{5 \times 10^3}  =  1 + W_0(-0,3158975)\\
 \end{gather}
 
-Calculando numericamente $W_0(0.3158975)$
+Calculando numericamente $W_0(-0,3158975)$
 ```{r}
 f <-function(x) return( x*exp(x) + 0.3158975)
 for(i in seq(1,10)) cat("Número de Iterações:",i," ", nr(1, f, i),"\n")
@@ -562,19 +553,19 @@ lambertW0(-0.3158975)
 
 
 \begin{gather}
-  -\dfrac{LT}{5 \times 10^3}  \approx  1 -0.5445596\\
-  LT \approx -0.4554404 \times 5 \times 10^3\\
-  Lt \approx -2277.202
+  -\dfrac{LT}{5 \times 10^3}  \approx  1 -0,5445596\\
+  LT \approx -0,4554404 \times 5 \times 10^3\\
+  Lt \approx -2277,202
 \end{gather}
 **Ramo $-1$ **
 
 \begin{gather}
-     W_{-1}\Bigg[-\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg)e^{-\bigg(\frac{LT}{5\times10^3} + 1\bigg)}\Bigg] = W_{-1}\bigg(-8586.984\times 10^{-4} \times e^{-1}\bigg)\\
-    -\dfrac{LT}{5 \times 10^3}  = 1 + W_{-1}(-0.3158975)
+     W_{-1}\Bigg[-\Bigg(\dfrac{LT}{5 \times 10^3} +1\Bigg)e^{-\bigg(\frac{LT}{5\times10^3} + 1\bigg)}\Bigg] = W_{-1}\bigg(-8586,984\times 10^{-4} \times e^{-1}\bigg)\\
+    -\dfrac{LT}{5 \times 10^3}  = 1 + W_{-1}(-0,3158975)
 
 \end{gather}
 
-Calculando numericamente $W_{-1}(-0.3158975)$
+Calculando numericamente $W_{-1}(-0,3158975)$
 
 ```{r}
 f <-function(x) return( x*exp(x) + 0.3158975)
