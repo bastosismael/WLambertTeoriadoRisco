@@ -4,7 +4,7 @@
    width="2000"
    height="2000"
    id="svg35525"
-   sodipodi:docname="newtonraphson.svg"
+   sodipodi:docname="newtonraphson.svg.2022_04_26_20_16_33.0.svg"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    inkscape:export-filename="C:\Users\ismae\OneDrive - Diretório Padrão\Documentos\WLambertTeoriadoRisco\images\GIf\1.png"
    inkscape:export-xdpi="300"
@@ -24,9 +24,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.75300001"
-     inkscape:cx="1184.5949"
-     inkscape:cy="1307.4369"
+     inkscape:zoom="0.53245141"
+     inkscape:cx="1342.8455"
+     inkscape:cy="1520.3265"
      inkscape:window-width="1920"
      inkscape:window-height="1051"
      inkscape:window-x="-9"
@@ -43,7 +43,7 @@
        orientation="0,-1"
        id="guide47243" />
     <sodipodi:guide
-       position="1434.8727,302.19249"
+       position="1237.7158,322.70916"
        orientation="0,-1"
        id="guide16473" />
   </sodipodi:namedview>
@@ -62,9 +62,9 @@
      inkscape:label="Base"
      style="display:inline">
     <g
-       transform="matrix(1.999995,0,0,2.0000068,0.6664991,-0.00430216)"
+       transform="matrix(1.999995,0,0,2.0000068,0.00248848,-0.00430216)"
        id="g35523"
-       inkscape:export-filename="C:\Users\ismae\OneDrive - Diretório Padrão\Documentos\WLambertTeoriadoRisco\images\GIf\5.png"
+       inkscape:export-filename="C:\Users\ismae\OneDrive - Diretório Padrão\Documentos\WLambertTeoriadoRisco\images\GIf\4.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
       <g
@@ -77,10 +77,7 @@
            width="1000"
            height="1000"
            class="dcg-svg-background"
-           id="rect35230"
-           inkscape:export-filename="C:\Users\ismae\OneDrive - Diretório Padrão\Documentos\WLambertTeoriadoRisco\images\GIf\3.png"
-           inkscape:export-xdpi="300"
-           inkscape:export-ydpi="300" />
+           id="rect35230" />
       </g>
       <g
          id="background-images-a9d23b42" />
@@ -102,8 +99,7 @@
                stroke-miterlimit="10"
                stroke-width="2"
                stroke-dasharray="none"
-               id="path35236"
-               style="stroke-width:3.9999982;stroke-miterlimit:10;stroke-dasharray:none" />
+               id="path35236" />
             <g
                class="dcg-svg-axis-line"
                id="g35240">
@@ -154,7 +150,7 @@
                stroke-width="2"
                stroke-dasharray="none"
                id="path35249"
-               style="stroke-width:3.9999982;stroke-miterlimit:10;stroke-dasharray:none" />
+               style="stroke-width:3;stroke-miterlimit:10;stroke-dasharray:none" />
             <g
                class="dcg-svg-axis-line"
                id="g35253">
@@ -224,8 +220,7 @@
                  stroke-width="2"
                  stroke-dasharray="none"
                  id="path35266"
-                 sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-                 style="stroke-width:3.9999982;stroke-miterlimit:2;stroke-dasharray:none" />
+                 sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
             </g>
             <g
                class="dcg-svg-axis-value dcg-svg-offcenter-axis-value"
@@ -980,7 +975,7 @@
                stroke-opacity="0.9"
                stroke-dasharray="none"
                id="path35506"
-               style="stroke-width:7.5;stroke-miterlimit:10;stroke-dasharray:none" />
+               style="stroke-width:5;stroke-miterlimit:10;stroke-dasharray:none" />
           </g>
         </g>
         <g
@@ -1004,16 +999,13 @@
     <text
        xml:space="preserve"
        id="text3059"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3061);fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:export-filename="C:\Users\ismae\OneDrive - Diretório Padrão\Documentos\WLambertTeoriadoRisco\images\GIf\1.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3061);fill:#000000;fill-opacity:1;stroke:none" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="3.06"
-     style="display:none">
+     style="display:inline">
     <text
        fill="#000000"
        stroke="none"
@@ -1022,12 +1014,12 @@
        font-style="normal"
        font-weight="normal"
        text-decoration="normal"
-       x="923.00598"
-       y="1373.2915"
+       x="943.00598"
+       y="1371.2915"
        text-anchor="middle"
        id="text35326-5-7"
        style="font-style:normal;font-weight:normal;font-size:68px;font-family:Arial;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
          id="tspan51709-1">3,06</tspan></text>
   </g>
   <g
@@ -1514,7 +1506,7 @@
        stroke="#2d70b3"
        class="dcg-svg-curve"
        paint-order="fill stroke markers"
-       d="m 1035.6181,1991.2588 v 0 L 1891.9046,-3.2642262"
+       d="m 1029.6181,1991.2588 v 0 L 1885.9046,-3.2642262"
        stroke-linecap="round"
        stroke-linejoin="round"
        stroke-miterlimit="10"
@@ -1522,13 +1514,56 @@
        stroke-opacity="0.9"
        stroke-dasharray="none"
        id="path333"
-       style="display:inline;stroke:#38d146;stroke-width:10;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.898039" />
+       style="display:inline;stroke:#38d146;stroke-width:4.542;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.898039" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="p_1"
+     style="display:none">
+    <path
+       style="fill:none;stroke:#f417ae;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:48, 8;stroke-dashoffset:0;stroke-opacity:0.873788"
+       d="m 1008,364 h 493.8713 v 1275.2093"
+       id="path35652" />
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="1500.0032"
+       y="1676.6082"
+       text-anchor="middle"
+       id="text35338"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">4</text>
+    <text
+       fill="#000000"
+       stroke="none"
+       font-family="Arial"
+       font-size="17px"
+       font-style="normal"
+       font-weight="normal"
+       text-decoration="normal"
+       x="969.09375"
+       y="372.88025"
+       text-anchor="middle"
+       id="text35470"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:2">14</text>
+    <ellipse
+       style="display:inline;fill:#f417ae;fill-opacity:0.87451;stroke:none;stroke-width:142.672;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.873788"
+       id="path37019-4-9"
+       cx="1499.1979"
+       cy="364.82202"
+       rx="12.636998"
+       ry="11.821798" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="tan_1"
-     style="display:none">
+     style="display:inline">
     <path
        fill="none"
        stroke="#388c46"
@@ -1542,71 +1577,17 @@
        stroke-opacity="0.9"
        stroke-dasharray=""
        id="path35515"
-       style="display:inline;stroke:#38d146;stroke-width:10;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.9" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="p_1"
-     style="display:none">
-    <path
-       style="fill:none;stroke:#f417ae;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:60, 10;stroke-dashoffset:0;stroke-opacity:0.873788"
-       d="m 1008,364 h 493.8713 v 1275.2093"
-       id="path35652" />
-    <text
-       fill="#000000"
-       stroke="none"
-       font-family="Arial"
-       font-size="17px"
-       font-style="normal"
-       font-weight="normal"
-       text-decoration="normal"
-       x="1500.0032"
-       y="1696.6082"
-       text-anchor="middle"
-       id="text35338"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:2"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-         id="tspan15455">4</tspan></text>
-    <text
-       fill="#000000"
-       stroke="none"
-       font-family="Arial"
-       font-size="17px"
-       font-style="normal"
-       font-weight="normal"
-       text-decoration="normal"
-       x="949.09375"
-       y="386.88025"
-       text-anchor="middle"
-       id="text35470"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:2"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-         id="tspan14391">14</tspan></text>
-    <ellipse
-       style="display:inline;fill:#f400bd;fill-opacity:0.997143;stroke:none;stroke-width:142.672;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.873788"
-       id="path37019-4-9"
-       cx="1499.1979"
-       cy="364.82202"
-       rx="12.636998"
-       ry="11.821798" />
+       style="display:inline;stroke:#38d146;stroke-width:7;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.9" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="p_3"
-     style="display:inline">
+     style="display:none">
     <path
-       style="display:inline;fill:none;stroke:#f417ae;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:60,10;stroke-dashoffset:0;stroke-opacity:0.873788"
+       style="display:inline;fill:none;stroke:#f417ae;stroke-width:5.14671;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:30.8802, 5.14671;stroke-dashoffset:0;stroke-opacity:0.873788"
        d="m 1000.9098,1587.8557 h 200.2622 v 43.8894"
        id="path35652-0-3" />
-    <ellipse
-       style="display:inline;fill:#f417ae;fill-opacity:1;stroke:none;stroke-width:142.672;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.873788"
-       id="path37019-4-8"
-       cx="1196.5471"
-       cy="1589.6414"
-       rx="12.636998"
-       ry="11.821798" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1622,13 +1603,13 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="tan_2"
-     style="display:none">
+     style="display:inline">
     <g
        id="g1580"
        style="stroke:#38d146;stroke-width:4.5;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.9"
        transform="matrix(0.99999102,0,0,1.0000009,2.012521,-5.8490875e-4)">
       <path
-         style="fill:none;stroke:#38d146;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.9"
+         style="fill:none;stroke:#38d146;stroke-width:7.00002828;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.9"
          d="M 1652.2784,28.789973 1108.9695,2005.8251"
          id="path1268"
          sodipodi:nodetypes="cc" />
@@ -1638,14 +1619,13 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="p_2"
-     style="display:none">
+     style="display:inline">
     <path
-       style="display:inline;fill:none;stroke:#f417ae;stroke-width:10.2965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:61.7792, 10.2965;stroke-dashoffset:0;stroke-opacity:0.873788"
-       d="m 992.0858,1357.4034 h 288.8938 v 286.6208"
-       id="path35652-0"
-       sodipodi:nodetypes="ccc" />
+       style="display:inline;fill:none;stroke:#f417ae;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:48, 8;stroke-dashoffset:0;stroke-opacity:0.873788"
+       d="m 992.01614,1357.1835 h 288.37806 v 270.8328"
+       id="path35652-0" />
     <ellipse
-       style="display:inline;fill:#f417ae;fill-opacity:1;stroke:none;stroke-width:142.672;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.873788"
+       style="display:inline;fill:#f417ae;fill-opacity:0.87451;stroke:none;stroke-width:142.672;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.873788"
        id="path37019-4"
        cx="1278.99"
        cy="1358.5747"
@@ -1656,7 +1636,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="2.25"
-     style="display:none">
+     style="display:inline">
     <text
        fill="#000000"
        stroke="none"
@@ -1665,12 +1645,12 @@
        font-style="normal"
        font-weight="normal"
        text-decoration="normal"
-       x="1286.2797"
-       y="1697.7737"
+       x="1293.7921"
+       y="1680.8707"
        text-anchor="middle"
        id="text35326-5"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
          id="tspan51709">2,25</tspan></text>
     <path
        style="display:inline;fill:none;fill-opacity:0.694201;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1690,28 +1670,13 @@
        font-style="normal"
        font-weight="normal"
        text-decoration="normal"
-       x="1201.7921"
-       y="1700.8707"
+       x="1191.7921"
+       y="1680.8707"
        text-anchor="middle"
        id="text1606"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.66666667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
          id="tspan1604">1,57</tspan></text>
-    <text
-       fill="#000000"
-       stroke="none"
-       font-family="Arial"
-       font-size="34px"
-       font-style="normal"
-       font-weight="normal"
-       text-decoration="normal"
-       x="935.11572"
-       y="1607.1123"
-       text-anchor="middle"
-       id="text1606-4"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.6667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
-         id="tspan1604-8">0,46</tspan></text>
     <path
        style="display:inline;fill:none;fill-opacity:0.694201;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 1202.4101,1648 v -16"
